@@ -1,0 +1,30 @@
+column_name,table_name,description
+transaction_id,transactions,Unique transaction identifier
+user_id,transactions,Unique user identifier
+merchant_id,transactions,Merchant identifier
+device_id,transactions,Device used for transaction
+location_id,transactions,Transaction location identifier
+transaction_amount,transactions,Transaction amount in INR
+currency,transactions,Currency type (e.g., INR)
+payment_method,transactions,Payment method (UPI, Card, Wallet)
+payment_type,transactions,Transaction type (P2P or Merchant)
+risk_score,transactions,Risk score assigned to transaction (0 to 1)
+is_fraud,transactions,Fraud label (0 = Not Fraud, 1 = Fraud)
+
+user_id,users,Unique user identifier
+user_name,users,Name of the user (if available)
+user_age,users,Age of user
+user_segment,users,User category/type
+
+merchant_id,merchants,Unique merchant identifier
+merchant_name,merchants,Merchant name
+merchant_category,merchants,Type of merchant (Retail, Food, etc.)
+
+device_id,devices,Unique device identifier
+device_type,devices,Device type (Mobile, Desktop, etc.)
+device_os,devices,Operating system (Android, iOS, etc.)
+
+location_id,locations,Unique location identifier
+city,locations,City name
+state,locations,State name
+country,locations,Country name
