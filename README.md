@@ -23,8 +23,8 @@ The warehouse uses a Bronze → Silver → Gold architecture.
 <img width="1036" height="792" alt="DataFlow" src="https://github.com/user-attachments/assets/639f743d-5e18-48ed-9f98-9403f4eb8eac" />
 
 ## 🥇 Bronze Layer — Raw Data
-The Bronze layer contains the source data as closely as possible to its original structure. The Bronze tables are defined in the accompanying [Bronze DDL Script](database/bronze/bronze_ddl.sql).
-
+The Bronze layer contains the source data as closely as possible to its original structure. The Bronze table are defined in the accompanying [Bronze DDL Script](Scripts/Bronze/ddl_bronze.sql).
+The Data is loaded to this layer using the following script [Bronze Stored Procedure](Scripts/Bronze/procedure_load_bronze.sql)
 ### Purpose
 The Bronze layer is designed for:
 
